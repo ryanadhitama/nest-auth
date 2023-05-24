@@ -20,14 +20,8 @@
 
 ## Endpoint list
 
-| Route           | Method   | Description       |
-| ----------------| -------- | ----------------- |
-| /auth/login     | `POST`   | Login             |
-| /auth/register  | `POST`   | Register          |
-| /me             | `GET`    | Get user login    |
-
-## Swagger
-
-| Route    | Method | Description     |
-| -------- | ------ | --------------- |
-| /openapi | `GET`  | Show swagger UI |
+| Route           | Method   | Description        |
+| ----------------| -------- | -------------------|
+| /auth/login     | `POST`   | Login              |
+| /auth/register  | `POST`   | Create new account |
+| /auth/profile   | `GET`    | Get user login     |
